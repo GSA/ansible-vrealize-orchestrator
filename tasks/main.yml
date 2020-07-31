@@ -6,7 +6,7 @@
     hostname: "{{ vro_host }}"
     username: "{{ vro_user }}"
     password: "{{ vro_pass }}"
-    validate_certs: "{{ validate_certs | default(omit)}}"
+    validate_certs: "{{ validate_certs | default(omit) }}"
     inputs: "{{ workflow_parameters | default(omit) }}"
     timeout: "{{ workflow_timeout_seconds | default(omit) }}"
     wait_for_workflow: "{{ workflow_wait | default(omit) }}"
