@@ -11,28 +11,28 @@ workflow_parameters:
     type: string
     value:
       string:
-        value: {{ grace_ip }} #ip address of new instance
+        value: "{{ grace_ip }}" #ip address of new instance
   - name: os
     scope: local
     type: string
     value:
       string:
-        value: {{ ansible_os_family }} #os (Windows/RedHat)
+        value: "{{ ansible_os_family }}" #os (Windows/RedHat)
   - name: sys_id
     scope: local
     type: string
     value:
       string:
-        value: {{ snow_sys_id }} #servicenow ticket to update
+        value: "{{ snow_sys_id }}" #servicenow ticket to update
   - name: hostname
     scope: local
     type: string
     value:
       string:
-        value: {{ grace_hostname }} #hostname of new instance
+        value: "{{ grace_hostname }}" #hostname of new instance
   - name: env
     scope: local
     type: string
     value:
       string:
-        value: {{ grace_env }} #env of new instance (PROD/TEST)
+        value: "{{ grace_env }}" #env of new instance (PROD/TEST)
