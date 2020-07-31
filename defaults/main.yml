@@ -1,2 +1,3 @@
 ---
-# defaults file for template
+# defaults file for ansible-vrealize_orchestrator
+validate_certs: False
