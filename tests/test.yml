@@ -12,4 +12,4 @@
     vro_pass: ""
 
   roles:
-    - ansible-vrealize_orchestrator
+    - vrealize_orchestrator
