@@ -1,4 +1,4 @@
-vrealize_orchestrator [![circleci](https://circleci.com/gh/GSA/ansible-ansible-vrealize_orchestrator.svg?style=svg)](https://circleci.com/gh/GSA/ansible-vrealize_orchestrator)
+vrealize_orchestrator [![circleci](https://circleci.com/gh/GSA/ansible-vrealize_orchestrator.svg?style=svg)](https://circleci.com/gh/GSA/ansible-vrealize_orchestrator)
 =========
 
 This ansible role is for the vrealize orchestrator API execution of workflows
